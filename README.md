@@ -161,7 +161,7 @@ As soon as you see this, you **MUST** disable the workflow.
 If you do not do this, the action will continue running every 10 minutes and will try to create *another* VM, which will just fill your logs with errors.
 
 Your VM will be provisioning in the OCI console. You can now log in using the SSH key you provided.
-。
+
 ## License
 
 This repository is available under the [MIT License](LICENSE).
