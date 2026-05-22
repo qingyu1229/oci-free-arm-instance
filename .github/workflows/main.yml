@@ -55,7 +55,7 @@ jobs:
           OCI_OUTPUT=$(oci compute instance launch \
             --compartment-id "$COMPARTMENT_ID" \
             --availability-domain "$AD_NAME" \
-            --shape "VM.Standard.A1.Flex" \
+            --shape "VM.Standard.E2.1.Micro" \
             --shape-config '{"ocpus":4,"memoryInGBs":24}' \
             --subnet-id "$SUBNET_ID" \
             --image-id "$IMAGE_ID" \
